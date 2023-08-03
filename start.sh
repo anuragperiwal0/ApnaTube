@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/AM-ROBOTS/ApnaTube.git /ApnaTube
+  git clone https://github.com/anuragperiwal0/ApnaTube.git /ApnaTube
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /ApnaTube
